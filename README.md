@@ -1,0 +1,2 @@
+# KursProgramiranja
+vezbanje git-a
