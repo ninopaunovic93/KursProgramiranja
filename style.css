@@ -1,0 +1,78 @@
+@font-face {
+    font-family: mojFont;
+    src: url("./font/WednesdayAdventure.ttf");
+}
+header {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    height: auto;
+    flex-direction: row;
+    justify-content:space-around ;
+    /* border-bottom: 1px solid black; */
+
+}
+.logo {
+    font-family: mojFont;
+    padding-left: 2%;
+}
+.pocetna{
+    width: 40vw;
+    padding-right: 1%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    column-gap: 2rem;
+   
+    
+}
+.pocetna a {
+    font-size: 1.5rem;
+    padding: 1%;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 45, 83);
+}
+
+.first-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("slike/ama-dablam2-most-beautiful-mountains-in-the-world.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 50% 100%, 0% 79%);
+    height: 80vh;
+    
+}
+.inside-div {
+    width: 100vw;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+.thirdPart {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.slikaDruga img{
+    background-repeat: no-repeat;
+    max-width: 300px;
+    box-shadow: 10px 10px 10px;
+}
+.desniTekst {
+    font-size: 1.5rem;
+}
+.desniTekst a {
+    text-decoration: none;
+    background-color: rgb(224, 101, 97);
+    color: #fff;
+    font-size: x-large;
+    padding: 1%;
+    border-radius: 11px;
+
+}
