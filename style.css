@@ -2,6 +2,10 @@
     font-family: mojFont;
     src: url("./font/WednesdayAdventure.ttf");
 }
+@font-face {
+    font-family: drugiFont;
+    src: url("./font/RainbowCake.ttf");
+}
 header {
     display: flex;
     margin: auto;
@@ -43,7 +47,6 @@ header {
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 79%, 50% 100%, 0% 79%);
     height: 80vh;
-    
 }
 .inside-div {
     width: 100vw;
@@ -74,5 +77,15 @@ header {
     font-size: x-large;
     padding: 1%;
     border-radius: 11px;
-
+}
+.desniTekst h1 {
+    color: rgb(49, 45, 45);
+}
+.desniTekst span {
+    font-family: drugiFont;
+    font-size: 1.9rem;
+    position: relative;
+    top: -30px;
+    right: -100px;
+    color: rgb(189, 111, 22);
 }
