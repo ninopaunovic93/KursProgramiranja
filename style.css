@@ -27,8 +27,6 @@ header {
     justify-content:flex-end;
     align-items: center;
     column-gap: 2rem;
-   
-    
 }
 .pocetna a {
     font-size: 1.5rem;
@@ -55,10 +53,11 @@ header {
     font-size: 2rem;
 }
 .thirdPart {
+    width: 100vw;
     height: 70vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -70,22 +69,188 @@ header {
 .desniTekst {
     font-size: 1.5rem;
 }
-.desniTekst a {
+.readMore {
     text-decoration: none;
-    background-color: rgb(224, 101, 97);
+    background-color: #f9cebd;
     color: #fff;
     font-size: x-large;
     padding: 1%;
     border-radius: 11px;
 }
 .desniTekst h1 {
-    color: rgb(49, 45, 45);
+    color:#f9cebd;
 }
 .desniTekst span {
     font-family: drugiFont;
     font-size: 1.9rem;
     position: relative;
-    top: -30px;
+    top: -20px;
+    right: -140px;
+    color: #625772;
+}
+.fourthPart {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.fourthPart h1 {
+    font-size: 2.2em;
+    color:#f9cebd;
+}
+.fourthPart span {
+    font-family: drugiFont;
+    position: relative;
+    top: -50px;
+    right: -60px;
+    color: #625772;
+}
+.tekst {
+    text-align: center;
+}
+.fifthPart {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./slike/2020829197225175172251751751722517517517.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 50% 100%, 0% 79%);
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.insideFifth {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+.container {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.7rem;
+}
+.container h2 {
+    color:#f1bca7;
+}
+.container img {
+    max-width: 10vw;
+    max-height: 10vh;
+    position: relative;
+    right: -120px;
+}
+.container a {
+    color:#f1bca7;
+    text-decoration: none;
+    position: relative;
     right: -100px;
-    color: rgb(189, 111, 22);
+}
+.sixstPart {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.rightImg img {
+    box-shadow: 10px 10px 10px;
+    width: 450px;
+    height: 500px;
+}
+.rightImg h3 {
+    font-family: drugiFont;
+    font-size: xx-large;
+    color: #625772;
+    position: relative;
+margin-bottom: 0px;
+    right: -180px;
+}
+.leftText p {
+    font-size: 1.5rem;
+    margin-bottom: 8%;
+}
+.sixstPart h1 {
+    font-size: 3.5rem;
+    color:#f9cebd;
+}
+.sixstPart span {
+    font-size: smaller;
+    font-family: drugiFont;
+    position: relative;
+    top: -28px;
+    right: -170px;
+    color: #625772;
+}
+.eight {
+    width: 100vw;
+    height: 100vh;
+}
+.eight h4 {
+    color:#f9cebd;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.eight span {
+    font-family: drugiFont;
+    position: relative;
+    top: -28px;
+    color: #625772;
+}
+.eightFlex {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.eightFlex h5 {
+    text-align: center;
+}
+.footer {
+    background-color: rgb(228, 129, 195);
+    width: 100vw;
+    height: 40vh;
+}
+.containerFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftFooter {
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.leftFooter a {
+    padding-left: 3%;
+    font-size: larger;
+    text-decoration: none;
+}
+.icons {
+    width: 7vw;
+    height: 9vh;
+}
+.rightFooter {
+        width: 40vw;
+        height: 40vh;
+        padding-right: 3%;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        column-gap: 2rem;
+}
+.rightFooter a {
+    font-size: larger;
+    text-decoration: none;
 }
